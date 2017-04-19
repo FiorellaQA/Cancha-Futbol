@@ -1,0 +1,95 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.contenedorPrincipal{
+	background: url("img/grass-2.jpg") repeat fixed center; 
+	width: 700px;
+	height: 400px;
+	margin: 0 auto;
+}
+.contenedor{
+	box-sizing: border-box;
+	position: relative;
+	top:5px;
+	left: 5px;
+	border: 5px solid white;
+	width: 690px;
+	height: 390px;
+}
+.arcoRight{
+	top:90px;
+	position: absolute;
+	right: -5px;
+	border: 5px solid white;
+	width: 100px;
+	height: 200px
+
+}
+.arcoLeft{
+	top:90px;
+	position: absolute;
+	left: -5px;
+	border: 5px solid white;
+	width: 100px;
+	height: 200px
+}
+.circle{
+	top: 140px;
+	left: 290px;
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+.balon1{
+	top:80px;
+	left: 85px;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-color: white;
+	border-radius: 50%;
+}
+.balon2{
+		top: 40px;
+	left: 290px;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-color: white;
+	border-radius: 50%;
+}
+.balon3{
+	left: 561px;
+	top:267px;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-color: white;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
